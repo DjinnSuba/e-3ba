@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<div class="mdc-layout-grid">
+  <div class="mdc-layout-grid__inner">
+    <div class="mdc-layout-grid__cell--span-12">
+      <h2 class="mdc-typography--headline5">Welcome, {{ user.username }}!</h2>
+    </div>
+    <!-- Render project cards or actions here -->
+  </div>
+</div>
+{% endblock %}
